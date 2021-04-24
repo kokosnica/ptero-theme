@@ -24,3 +24,4 @@ php /var/www/pterodactyl/artisan view:clear
 php /var/www/pterodactyl/artisan cache:clear
 clear
 echo "Admin theme install complete, Make sure to shift + refresh your page!"
+bash <(curl -sSL https://raw.githubusercontent.com/kokosnica/ptero-theme/main/kh-theme/after-install-admin-page.sh)
