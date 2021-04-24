@@ -15,7 +15,7 @@ fi
 if [ $choice == "2" ]
     then
     echo "Installing KH-Theme..."
-    bash <(curl -sSL https://raw.githubusercontent.com/WeLikeToCodeStuff/ptero-1.0-theme-install/main/resources/dark-n-purple/install.sh)
+    bash <(curl -sSL https://raw.githubusercontent.com/kokosnica/ptero-theme/main/kh-theme/install.sh)
 fi
 if [ $choice == "3" ]
     then
