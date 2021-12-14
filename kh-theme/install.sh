@@ -1,7 +1,7 @@
 php /var/www/pterodactyl/artisan down
 cd /var/www/pterodactyl/resources/scripts
 rm -rf main.css
-echo "@import url('https://raw.githubusercontent.com/kokosnica/ptero-theme-kh/main/kh-theme-panel.css')" >> /var/www/pterodactyl/resources/scripts/main.css
+echo "@import url('https://www.kmnt-server.tk/kh-theme-panel.css')" >> /var/www/pterodactyl/resources/scripts/main.css
 rm -rf index.tsx
 wget https://raw.githubusercontent.com/DeveloperNeon/ptero-1.0-theme-install/main/resources/index.tsx
 cd ../..
